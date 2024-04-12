@@ -1,0 +1,216 @@
+/* Local fonts */
+
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('../fonts/Silkscreen-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist-VariableFont_wght.ttf');
+}
+
+/* Reset page */
+
+* {
+    margin: auto;
+    padding: 0px;
+    line-height: 1;
+    border: solid red 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+a, 
+a:link,
+a:visited
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+/* GENERAL */
+
+body {
+    background-color: #454545;
+}
+
+.bold-caps {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* HEADER */
+
+header {
+    min-height: 212px;
+    max-height: 292px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: #454545;
+    z-index: 10;
+}
+
+header p {
+    color: #767676;
+    font-size: 12pt;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+header p a {
+    color: #767676;
+}
+
+.divider {
+    height: 5px;
+    background-color: #505050;
+}
+
+h1 {
+    font-family: 'Silkscreen';
+    text-align: center;
+    font-size: 60pt;
+    padding: 20px 0px;
+    background: linear-gradient(#fba7b4 50%,#85dbec);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    background-clip: text;
+}
+
+header li {
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 5px 10px 5px 10px;
+}
+
+header li a {
+    padding: 15px 20px;
+    margin: 0px;
+    color: white;
+    font-size: 12pt;
+}
+
+header li a:hover {
+    background-color: #85dbec;
+    color: #296d7b;
+}
+
+/* SECTIONS */
+
+section {
+    margin: 40px;
+}
+
+h2 {
+    color: white;
+    font-size: 22pt;
+}
+
+section p {
+    color: #afaeae;
+    margin: 15px 0px 25px 0px;
+}
+
+
+/* TABLES */
+
+table {
+    background-color: #afaeae;
+    border-spacing: 5px;
+    border: 5px solid #3d3d3d;
+    color: #1a1919;
+    min-width: 500px;
+}
+
+tr {
+    padding: 5px 0px;
+    height: 2.0em;
+}
+
+td {
+    line-height: 1.4;
+    text-align: left;
+    vertical-align: top;
+    padding: 0em 1em 0em 0.3em;
+}
+
+.code {
+    background-color: black;
+    text-align: left;
+    vertical-align: top;
+    color: #8ed369;
+    padding: 0.3em 1em;
+    font-family: monospace;
+    border-radius: 3px;
+    margin: 0em 0.15em;
+}
+
+.centered {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-heading {
+    font-size: 14pt;
+    height: 2.0em;
+    border-bottom: 2px solid #8e8c8c;
+}
+
+.table-subheading {
+    border-bottom: 0px solid #8e8c8c;
+    background-color: #c7c6c6;
+}
+
+
+/* 
+
+GRADIENT BACKGROUNDS
+--------------------
+
+* Fun basic horizontal pink to lilac from mdn:
+-------------------------------------------------------
+background: linear-gradient(#e66465, #9198e5);
+-------------------------------------------------------
+
+* Pink and blue (from palette picker) horizontal:
+-------------------------------------------------------
+background: linear-gradient(#EDAFB8,#93B7BE)
+-------------------------------------------------------
+
+* More vibrant, cotton-candyish pink and blue:
+-------------------------------------------------------
+background: linear-gradient(#fba7b4,#85dbec);
+-------------------------------------------------------
+
+* Fun tri-color stack from mdn:
+-------------------------------------------------------
+background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+-------------------------------------------------------
+
+* My attempt at tri-color radial:
+-------------------------------------------------------
+background: 
+    radial-gradient(circle at 0% 100%, rgba(245, 147, 161, 0.5), rgba(0,0,0,0) 75%),
+    radial-gradient(circle at 100% 100%, rgba(74, 14, 35, 0.6), rgba(0,0,0,0) 75%),
+    radial-gradient(circle at 50% 0%, rgba(135, 215, 231, 0.9), rgba(0,0,0,0) 80%),
+    #87d7e73d;
+-------------------------------------------------------
+(Turned out a bit more muted than I'd hoped but could
+ be something to continue working with)
+
+* Tri-color stack - blue, pink, and burgundy:
+-------------------------------------------------------
+background: 
+    linear-gradient(127deg, #87d7e7,rgba(0,0,0,0) 80%),
+    linear-gradient(217deg, #4a0e23,rgba(0,0,0,0) 75%),
+    linear-gradient(336deg, #f593a1,rgba(0,0,0,0) 90%);
+-------------------------------------------------------
+!!! USE THIS ONE !!!
+
+*/

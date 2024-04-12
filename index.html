@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/css/styles.css" rel="stylesheet">
+    <title>CSS Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Cheatsheet</h1>
+        <p>by <a href="https://emilyshewcraft.github.io" target="_blank">Emily Shewcraft</a></p>
+        <div class="divider"></div>
+        <div class="navbar">
+            <ul class="bold-caps">
+                <li><a href="#">Home</a></li>
+                <!--  Can't get these links to direct to the right place on the page so we don't really need them right now anyway
+                <li><a href="#selectors">CSS Selectors</a></li>
+                <li><a href="#declarations">CSS Declarations</a></li>
+                -->
+            </ul>
+        </div>
+        <div class="divider"></div>
+    </header>
+    <section id="selectors">
+        <h2 class="bold-caps">Selectors</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur libero non porta laoreet. Sed sem nulla, volutpat non tristique ac, varius at dolor.</p>
+            <!-- sections: ______-->
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2" class="table-heading bold-caps centered">Simple Selectors</td>
+                </tr>
+                <tr>
+                    <td class="table-subheading bold-caps centered">Code</td>
+                    <td class="table-subheading bold-caps centered">Description</td>
+                </tr>
+                <tr>
+                    <td class="code">h1 &lbrace; &nbsp;</br> &nbsp; &rbrace;</td>
+                    <td>All HTML elements can be used as selectors in CSS.</br>
+                        Use the <span class="code">*</span> selector to apply declarations to all elements on a page.</td>
+                </tr>
+                <tr>
+                    <td class="code">.myClass &lbrace; &nbsp;</br> &nbsp; &rbrace;</td>
+                    <td>The <span class="code">.</span> symbol is used to select HTML elements by <span class="bold-caps">class</span>.</td>
+                </tr>
+                <tr>
+                    <td class="code">#myId &lbrace; &nbsp;</br> &nbsp; &rbrace;</td>
+                    <td>The <span class="code">#</span> symbol is used to select HTML elements by <span class="bold-caps">ID</span>.</td>
+                </tr>
+                <tr>
+                    <!-- ROW INTENTIONALLY LEFT BLANK -->
+                </tr>
+                <tr>
+                    <td colspan="2" class="table-heading bold-caps centered">Compound Selectors</td>
+                </tr>
+                <tr>
+                    <td class="table-subheading bold-caps centered">Code</td>
+                    <td class="table-subheading bold-caps centered">Description</td>
+                </tr>
+                <tr>
+                    <td class="code">h2.myClass &lbrace; &nbsp;</br> &nbsp; &rbrace;</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">.myClass p &lbrace; &nbsp;</br> &nbsp; &rbrace;</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">a:hover &lbrace; &nbsp;</br> &nbsp; &rbrace;</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="declarations">
+        <h2 class="bold-caps">Declarations</h2>
+        <!-- sections: box sizing, position & display (with float & clear), color, typography-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur libero non porta laoreet. Sed sem nulla, volutpat non tristique ac, varius at dolor.</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2" class="table-heading bold-caps centered">Box Sizing</td>
+                </tr>
+                <tr>
+                    <td class="table-subheading bold-caps centered">Code</td>
+                    <td class="table-subheading bold-caps centered">Description</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <!-- ROW INTENTIONALLY LEFT BLANK -->
+                </tr>
+                <tr>
+                    <td colspan="2" class="table-heading bold-caps centered">Display &amp; Position</td>
+                </tr>
+                <tr>
+                    <td class="table-subheading bold-caps centered">Code</td>
+                    <td class="table-subheading bold-caps centered">Description</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <!-- ROW INTENTIONALLY LEFT BLANK -->
+                </tr>
+                <tr>
+                    <td colspan="2" class="table-heading bold-caps centered">Color</td>
+                </tr>
+                <tr>
+                    <td class="table-subheading bold-caps centered">Code</td>
+                    <td class="table-subheading bold-caps centered">Description</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <!-- ROW INTENTIONALLY LEFT BLANK -->
+                </tr>
+                <tr>
+                    <td colspan="2" class="table-heading bold-caps centered">Typography</td>
+                </tr>
+                <tr>
+                    <td class="table-subheading bold-caps centered">Code</td>
+                    <td class="table-subheading bold-caps centered">Description</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+                <tr>
+                    <td class="code">code block</td>
+                    <td>This is example text giving a description for the code on the left.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
